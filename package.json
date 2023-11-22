@@ -1,0 +1,27 @@
+{
+    "name": "math-array-transform",
+    "version": "1.0.1",
+    "description": "This package provides a convenient and useful tool for applying mathematical transformations to arrays using your JavaScript code. The package allows users to apply user-defined mathematical functions to each element of an array, returning the results as a new array. It enhances code readability and enables concise coding practices. Utilize this package to effortlessly process numeric arrays with various mathematical transformations. It is built on the principles of functional programming, offering an elegant way to implement and leverage sophisticated mathematical operations.",
+    "main": "math-array-transform.js",
+    "type": "module",
+    "scripts": {
+        "test": "test"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Chanmi-Gim/math-array-transform.git"
+    },
+    "keywords": [
+        "math",
+        "array",
+        "composition",
+        "functional",
+        "programming"
+    ],
+    "author": "Gim <a28108721@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Chanmi-Gim/math-array-transform/issues"
+    },
+    "homepage": "https://github.com/Chanmi-Gim/math-array-transform#readme"
+}
