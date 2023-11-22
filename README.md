@@ -1,4 +1,4 @@
-# math-transform-array
+# math-array-transform
 
 A lightweight package that applies mathematical transformations to arrays using functional programming concepts.
 <br></br>
@@ -8,7 +8,7 @@ A lightweight package that applies mathematical transformations to arrays using 
 You can install the package using npm:
 
 ```bash
-npm i Math-transform-array
+npm i math-array-transform
 ```
 
 <br></br>
@@ -29,7 +29,7 @@ mapWithFunctions(arr, functionsArray);
 ## Usage
 
 ```typescript
-import { mathTransformArray } from "math-transform-array";
+import { mapWithFunctions } from "math-array-transform";
 ```
 
 <br></br>
@@ -38,8 +38,8 @@ import { mathTransformArray } from "math-transform-array";
 
 ```typescript
 const arr = [1, 2, 3, 4, 5];
-const customFunctionsArray = [(n) => Math.pow(n, 2), (n) => Math.sqrt(n), (n) => Math.pow(n, 3)];
+const FunctionsArray = [(n) => Math.pow(n, 2), (n) => Math.sqrt(n), (n) => Math.pow(n, 3)];
 
-const resultArray = mapWithMathFunctions(arr, customFunctionsArray);
+const resultArray = mapWithFunctions(arr, FunctionsArray);
 console.log(resultArray); // [ 1, 8, 27, 64, 125 ]
 ```
