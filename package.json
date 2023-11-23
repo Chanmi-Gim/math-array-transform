@@ -15,10 +15,9 @@
         "math",
         "array",
         "composition",
-        "functional",
-        "programming"
+        "functional programming"
     ],
-    "author": "Gim <a28108721@gmail.com>",
+    "author": "Gim<a28108721@gmail.com>",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/Chanmi-Gim/math-array-transform/issues"

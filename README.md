@@ -13,6 +13,19 @@ npm i math-array-transform
 
 <br></br>
 
+## Initialization
+
+To use `math-array-transform` with ESM (ECMAScript Modules), you need to add the following configuration to your `package.json` file:
+
+```json
+// package.json
+{
+    "type": "module"
+}
+```
+
+<br></br>
+
 ## Function
 
 Applies a series of mathematical transformations to each element of the input array.
